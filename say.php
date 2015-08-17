@@ -4,7 +4,7 @@ include_once 'db.inc.php';
 
 do
 {
-	if( !isset($_SESSION['lastsay']) )
+	if( !isset($_SESSION['nick']) )
 	{
 		$ret ['error'] = 2;
 		$ret ['msg'] = 'nmb';
