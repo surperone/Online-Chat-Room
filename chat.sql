@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 --
 -- 表的结构 `chat`
 --
-
+TRUNCATE TABLE `chat`;
 CREATE TABLE IF NOT EXISTS `chat` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `chtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
