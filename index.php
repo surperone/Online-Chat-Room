@@ -1,5 +1,6 @@
 <?php
-if ( isset( $_COOKIE['nick'] ) )
+session_start();
+if ( isset( $_SESSION['nick'] ) )
 {
 	//已登录
 	include 'msg.html';
